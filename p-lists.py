@@ -1,3 +1,4 @@
+
 movies=["The Holy Grail","The Life of Brian","The Meaning of Life"]
 movies.insert(1,1973)
 movies.insert(3,1992)
@@ -31,7 +32,7 @@ for each_item in movies:
     else:
         print(each_item)
 """
-
+"""
 def print_lists(AnyList):
     for each_item in AnyList:
         if isinstance(each_item,list):
@@ -40,3 +41,4 @@ def print_lists(AnyList):
             print(each_item)
 
 print_lists(movies)
+"""
