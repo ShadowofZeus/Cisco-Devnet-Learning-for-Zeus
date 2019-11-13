@@ -2,4 +2,4 @@ import nester
 
 cast=['Simba','Susan','Mama','Hushpup','Frank']
 
-nester.print_lists(cast)
+nester.print_lists(cast,1)
