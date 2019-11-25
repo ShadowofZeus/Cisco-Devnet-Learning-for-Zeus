@@ -1,5 +1,5 @@
 class Leapx_org():
-    mul_num = 1.20
+    mul_num = 1.20                     #class variable to be change via class method
     def __init__(self,first,last,pay):
         self.f_name = first
         self.l_name = last
@@ -18,7 +18,7 @@ class Leapx_org():
 
 L_obj1 = Leapx_org('mohit', 'RAJ', 60000)
 L_obj2 = Leapx_org('Ravender', 'Dahiya',70000)
-Leapx_org.mul_num_set(1.40)
+Leapx_org.mul_num_set(1.35)
 
-print L_obj1.mul_num
-print L_obj2.mul_num
+print (L_obj1.mul_num)
+print (L_obj2.mul_num)
