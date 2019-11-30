@@ -16,10 +16,10 @@ def comparison(gvalue,rand_gen):
     else:
         return("You guessed a lower value than what was generated")
 
+count=int(0)                    # count has to be outside so that it is not re-initialized to zero ALWAYS
 
 while 1:
-    count=int(0)
-    print(count)
+
     rand_nmbr=random.randint(1, 9)
     print("Generated Number: %d" %(rand_nmbr))         #Check if program is accurated
     print("Guessing Attempts: %d" %(count))
@@ -33,39 +33,39 @@ while 1:
 
     elif guess=='1' :
         print(comparison(guess,rand_nmbr))
-        count=count+1
+        count+=count
 
     elif guess=='2' :
         print(comparison(guess,rand_nmbr))
-        count=count+1
+        count+=count
 
     elif guess=='3' :
         print(comparison(guess,rand_nmbr))
-        count=count+1
+        count+=count
 
     elif guess=='4' :
         print(comparison(guess,rand_nmbr))
-        count=count+1
+        count+=count
 
     elif guess=='5' :
         print(comparison(guess,rand_nmbr))
-        count=count+1
+        count+=count
 
     elif guess=='6' :
         print(comparison(guess,rand_nmbr))
-        count=count+1
+        count+=count
 
     elif guess=='7' :
         print(comparison(guess,rand_nmbr))
-        count=count+1
+        count+=count
 
     elif guess=='8' :
         print(comparison(guess,rand_nmbr))
-        count=count+1
+        count+=count
 
     elif guess=='9' :
         print(comparison(guess,rand_nmbr))
-        count=count+1
+        count+=count
 
     else:
         print("invalid Input, please follow instructions and TRy again")
