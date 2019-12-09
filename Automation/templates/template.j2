@@ -1,0 +1,13 @@
+from jinja2 import Environment, FileSystemLoader
+ENV = Environment(loader=FileSystemLoader('.'))
+template = ENV.get_template("template.j2")
+
+
+interface {{ interface.name }}
+description {{ interface.description }}
+{% if interface.uplink %}
+switchport mode trunk
+{% else %}
+switchport access vlan {{ interface.vlan }}
+switchport mode access
+{% endif %}

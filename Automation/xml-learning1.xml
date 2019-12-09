@@ -1,0 +1,17 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+  <server>
+    <pool>http</pool>
+    <description>"My virtual server test"</description>
+    <name>"http-virtual"</name>
+    <mask>"255.255.255.255"</mask>
+    <profiles>
+      <name>"http"</name>
+      <kind>"ltm:virtual:profile"</kind>
+    </profiles>
+    <ipProtocol></ipProtocol>
+    <sourceAddressTranslation></sourceAddressTranslation>
+    <kind></kind>
+    <destination></destination>
+
+
+  </server>
